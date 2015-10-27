@@ -1,4 +1,7 @@
 # Steganografia
 # Classe che gestisce la steganografia.
-ImgSteganografia apre il file JPEG e inserisce un codice cifrato in AES,
-nell'immagine senza creare problemi alla visualizazzione del file
+La classe ImgSteganografia apre il file JPEG e inserisce un codice cifrato in AES,
+nell'immagine senza creare problemi alla visualizazzione del file.
+il metodo crypt richiede solo la il testo da scrivere.
+Il metodo decrypt restituisce il testo decifrato preso dal file.
+La chiave della cifratura può essere cambiata con setKey.
